@@ -1,7 +1,7 @@
-// import _ from 'lodash';
+import _ from 'lodash';
 import './style.css';
 
-const todolist = [
+const worklist = [
   {
     index: 0,
     description: 'laundry',
@@ -17,21 +17,32 @@ const todolist = [
     description: 'study',
     completed: false,
   },
+  {
+    index: 3,
+    description: 'dance',
+    completed: false,
+  },
 ];
 const list = document.querySelector('.list');
 
 const component = () => {
-  const newlist = document.createElement('section');
-  newlist.classList.add('todolist');
-  for (let i = 0; i < todolist.length; i++) {
-  // todolist.forEach((todo) => {
-    newlist.innerHTML = ` 
-          <div class ="dolist">
-              <input type="checkbox" id="listitem"/>
-              <label for="listitem"> ${todolist[i].description}</label>
-          </div>
-          <i id =liimg></i>`;
+  for (let i = 0; i < worklist.length; i++) {
+    const newlist = document.createElement('section');
+    newlist.classList.add('todolist');
+    const div = document.createElement('div');
+    div.classList.add('dolist');
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    const label = document.createElement('label');
+    label.innerText = worklist[i].description;
+    const itag = document.createElement('i');
+    itag.id = 'liimg';
+
+    div.appendChild(input);
+    div.appendChild(label);
+    newlist.appendChild(div);
+    newlist.appendChild(itag);
+    list.appendChild(newlist);
   }
-  list.appendChild(newlist);
 };
 window.addEventListener('load', component);

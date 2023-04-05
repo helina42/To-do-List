@@ -1,5 +1,5 @@
-*{
-  font-family:cursive;
+* {
+  font-family: cursive;
 }
 
 body {
@@ -36,7 +36,6 @@ body {
   justify-content: space-between;
   border-bottom: 2px solid #f1f1f1;
   padding: 15px 0;
-
 }
 
 .clear {
@@ -76,13 +75,12 @@ input[type=text] {
   align-self: center;
 }
 
-button{
+button {
   border: 0;
   width: 100%;
   height: 8vw;
   font-weight: bold;
 }
-
 
 i {
   opacity: 0.2;
@@ -92,20 +90,22 @@ i:hover {
   opacity: 0.8;
 }
 
-
-#refresh,#liimg ,#add,.dolist input,label:hover{
+#refresh,
+#liimg,
+#add,
+.dolist input,
+label:hover {
   cursor: pointer;
-
 }
 
 #add {
   content: url(./asset/add.png);
   width: 2vw;
-
 }
 
 #liimg {
   content: url(./asset/menu.png);
   width: 3vw;
   height: 3vw;
+  align-self: center;
 }
