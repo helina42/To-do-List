@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do list</title>
+    <script defer="defer" src="main.js"></script>
 </head>
 <body>
-    <h1>To do list </h1>
+    <section class="whole">
+        <section class="first-sec">
+            <div class="title-container">
+                <p class="title">Today's To Do</p>
+                <i id="refresh"></i>
+            </div>
+        </section>
+        <section class="list-sec">
+            <input type="text" placeholder="Add to your list..." />
+            <i id="add"></i>
+            
+        </section>
+
+        <div class="list"></div>
+
+        <div class="clear">
+            <button class="clear-all" disabled>Clear All Completed</button>
+        </div>
+
+    </section>
+    <script src="main.js"></script> 
 </body>
 </html>

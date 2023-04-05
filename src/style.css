@@ -1,3 +1,111 @@
+*{
+  font-family:cursive;
+}
+
 body {
-  background-color: bisque;
+  font-size: 20px;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-sec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+.whole {
+  border-radius: 5px;
+  background-color: #fff;
+  width: 50vw;
+  box-shadow: 0.1px 0.1px 14px 14px rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.whole section {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 15px 0;
+
+}
+
+.clear {
+  display: flex;
+  justify-content: center;
+}
+
+.dolist {
+  display: flex;
+  justify-content: space-between;
+  gap: 13px;
+}
+
+p {
+  color: #545862;
+}
+
+input {
+  border: 0;
+}
+
+input label {
+  align-content: space-between;
+}
+
+input[type=text] {
+  font-style: italic;
+  font-size: 15px;
+  width: 40vw;
+}
+
+#refresh {
+  content: url(./asset/refresh.png);
+  width: 3vw;
+  height: 3vw;
+  padding: 0;
+  align-self: center;
+}
+
+button{
+  border: 0;
+  width: 100%;
+  height: 8vw;
+  font-weight: bold;
+}
+
+
+i {
+  opacity: 0.2;
+}
+
+i:hover {
+  opacity: 0.8;
+}
+
+
+#refresh,#liimg ,#add,.dolist input,label:hover{
+  cursor: pointer;
+
+}
+
+#add {
+  content: url(./asset/add.png);
+  width: 2vw;
+
+}
+
+#liimg {
+  content: url(./asset/menu.png);
+  width: 3vw;
+  height: 3vw;
 }
