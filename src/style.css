@@ -109,3 +109,14 @@ label:hover {
   height: 3vw;
   align-self: center;
 }
+
+.delete {
+  content: url(./asset/delete.png);
+  width: 3vw;
+  height: 3vw;
+}
+
+.hide {
+display: none;
+}
+
