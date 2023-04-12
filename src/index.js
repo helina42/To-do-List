@@ -1,13 +1,26 @@
 import _ from 'lodash';
 import './style.css';
+import { addtodo } from './modules/todolist.js';
+import callList, { todoDB } from './modules/callList.js';
 
-function component() {
-  const element = document.createElement('div');
+const addbtn = document.getElementById('add');
+const addlist = document.getElementById('userinput');
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
-  return element;
-}
+const component = () => {
+  for (let i = 0; i < todoDB.length; i++) {
+    callList(todoDB[i].description, todoDB[i].index);
+  }
+};
 
-document.body.appendChild(component());
+addlist.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    addbtn.click();
+  }
+});
+addbtn.addEventListener('click', (e) => {
+  addtodo(addlist.value, todoDB);
+  callList(addlist.value);
+  addlist.value = '';
+});
+
+window.addEventListener('load', component);

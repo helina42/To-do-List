@@ -16,7 +16,7 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\r\\n    background-color: bisque;\\r\\n  }\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://to-do-list/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./asset/refresh.png */ \"./src/asset/refresh.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./asset/add.png */ \"./src/asset/add.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./asset/menu.png */ \"./src/asset/menu.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./asset/delete.png */ \"./src/asset/delete.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\r\\n  font-family: cursive;\\r\\n}\\r\\n\\r\\nbody {\\r\\n  font-size: 20px;\\r\\n  background-color: #f6f6f6;\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  justify-content: center;\\r\\n  align-items: center;\\r\\n}\\r\\n\\r\\n.first-sec {\\r\\n  display: flex;\\r\\n  justify-content: space-between;\\r\\n}\\r\\n\\r\\n.title-container {\\r\\n  display: flex;\\r\\n  justify-content: space-between;\\r\\n  width: 50vw;\\r\\n}\\r\\n\\r\\n.whole {\\r\\n  border-radius: 5px;\\r\\n  background-color: #fff;\\r\\n  width: 50vw;\\r\\n  box-shadow: 0.1px 0.1px 14px 14px rgba(0, 0, 0, 0.05);\\r\\n  margin: 0 auto;\\r\\n  padding: 30px;\\r\\n}\\r\\n\\r\\n.whole section {\\r\\n  display: flex;\\r\\n  justify-content: space-between;\\r\\n  border-bottom: 2px solid #f1f1f1;\\r\\n  padding: 15px 0;\\r\\n}\\r\\n\\r\\n.clear {\\r\\n  display: flex;\\r\\n  justify-content: center;\\r\\n}\\r\\n\\r\\n.dolist {\\r\\n  display: flex;\\r\\n  justify-content: space-between;\\r\\n  gap: 13px;\\r\\n}\\r\\n\\r\\np {\\r\\n  color: #545862;\\r\\n}\\r\\n\\r\\ninput {\\r\\n  border: 0;\\r\\n}\\r\\n\\r\\ninput label {\\r\\n  align-content: space-between;\\r\\n}\\r\\n\\r\\ninput[type=text] {\\r\\n  font-style: italic;\\r\\n  font-size: 15px;\\r\\n  width: 40vw;\\r\\n}\\r\\n\\r\\n#refresh {\\r\\n  content: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\r\\n  width: 3vw;\\r\\n  height: 3vw;\\r\\n  padding: 0;\\r\\n  align-self: center;\\r\\n}\\r\\n\\r\\nbutton {\\r\\n  border: 0;\\r\\n  width: 100%;\\r\\n  height: 4vw;\\r\\n  font-weight: bold;\\r\\n}\\r\\n\\r\\ni {\\r\\n  opacity: 0.2;\\r\\n}\\r\\n\\r\\ni:hover {\\r\\n  opacity: 0.8;\\r\\n}\\r\\n\\r\\n#refresh,\\r\\n#liimg,\\r\\n#add,\\r\\n.dolist input,\\r\\nlabel:hover {\\r\\n  cursor: pointer;\\r\\n}\\r\\n\\r\\n#add {\\r\\n  content: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\r\\n  width: 2vw;\\r\\n}\\r\\n\\r\\n#liimg {\\r\\n  content: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\r\\n  width: 3vw;\\r\\n  height: 3vw;\\r\\n  align-self: center;\\r\\n}\\r\\n\\r\\n.delete {\\r\\n  content: url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\r\\n  width: 3vw;\\r\\n  height: 3vw;\\r\\n}\\r\\n\\r\\n.hide {\\r\\n  display: none;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://to-do-list/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -28,6 +28,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://to-do-list/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n  url = String(url.__esModule ? url.default : url);\n\n  // If url is already wrapped in quotes, remove them\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n  if (options.hash) {\n    url += options.hash;\n  }\n\n  // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack://to-do-list/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -136,7 +147,73 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\r\n\r\n\r\nfunction component() {\r\n    const element = document.createElement('div');\r\n  \r\n    // Lodash, now imported by this script\r\n    element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join(['Hello', 'webpack'], ' ');\r\n    element.classList.add('hello');\r\n    return element;\r\n  }\r\n  \r\n  document.body.appendChild(component());\n\n//# sourceURL=webpack://to-do-list/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_todolist_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/todolist.js */ \"./src/modules/todolist.js\");\n/* harmony import */ var _modules_callList_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/callList.js */ \"./src/modules/callList.js\");\n\n\n\n\n\nconst addbtn = document.getElementById('add');\nconst addlist = document.getElementById('userinput');\n\nconst component = () => {\n  for (let i = 0; i < _modules_callList_js__WEBPACK_IMPORTED_MODULE_3__.todoDB.length; i++) {\n    (0,_modules_callList_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(_modules_callList_js__WEBPACK_IMPORTED_MODULE_3__.todoDB[i].description, _modules_callList_js__WEBPACK_IMPORTED_MODULE_3__.todoDB[i].index);\n  }\n};\n\naddlist.addEventListener('keypress', (e) => {\n  if (e.key === 'Enter') {\n    addbtn.click();\n  }\n});\naddbtn.addEventListener('click', (e) => {\n  (0,_modules_todolist_js__WEBPACK_IMPORTED_MODULE_2__.addtodo)(addlist.value, _modules_callList_js__WEBPACK_IMPORTED_MODULE_3__.todoDB);\n  (0,_modules_callList_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(addlist.value);\n  addlist.value = '';\n});\n\nwindow.addEventListener('load', component);\n\n\n//# sourceURL=webpack://to-do-list/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/callList.js":
+/*!*********************************!*\
+  !*** ./src/modules/callList.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   \"todoDB\": () => (/* binding */ todoDB)\n/* harmony export */ });\n/* harmony import */ var _todolist_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./todolist.js */ \"./src/modules/todolist.js\");\n\n\nconst list = document.querySelector('.list');\nconst todoDB = JSON.parse(localStorage.getItem('info')) || [];\n\nconst callList = (inputtext, index) => {\n  const newlist = document.createElement('section');\n  newlist.classList.add('todolist');\n  newlist.id = `list${index}`;\n  const div = document.createElement('div');\n  div.classList.add('dolist');\n  div.id = `dolist${index}`;\n  const input = document.createElement('input');\n  input.type = 'checkbox';\n  const label = document.createElement('label');\n  label.id = `userval${index}`;\n  label.innerText = inputtext;\n  label.setAttribute('contentEditable', 'true');\n  const itag = document.createElement('i');\n  itag.id = 'liimg';\n  const del = document.createElement('i');\n  del.classList.add('hide');\n  del.classList.add('delete');\n  del.id = index;\n\n  div.appendChild(input);\n  div.appendChild(label);\n  newlist.appendChild(div);\n  newlist.appendChild(itag);\n  newlist.appendChild(del);\n  list.appendChild(newlist);\n\n  newlist.addEventListener('mouseover', (e) => {\n    const target = document.getElementById(`list${index}`);\n    const { children } = target;\n    children[2].classList.remove('hide');\n    children[1].classList.add('hide');\n  });\n  newlist.addEventListener('mouseleave', (e) => {\n    const target = document.getElementById(`list${index}`);\n    const { children } = target;\n    children[2].classList.add('hide');\n    children[1].classList.remove('hide');\n  });\n  del.addEventListener('click', (e) => {\n    const id = index * 1;\n    (0,_todolist_js__WEBPACK_IMPORTED_MODULE_0__.removeTodo)(id, todoDB);\n    e.target.parentNode.remove();\n  });\n  label.addEventListener('input', (e) => {\n    const inputValue = e.target.innerText;\n    (0,_todolist_js__WEBPACK_IMPORTED_MODULE_0__.edit)(index, todoDB, inputValue);\n  });\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (callList);\n\n//# sourceURL=webpack://to-do-list/./src/modules/callList.js?");
+
+/***/ }),
+
+/***/ "./src/modules/todolist.js":
+/*!*********************************!*\
+  !*** ./src/modules/todolist.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"addtodo\": () => (/* binding */ addtodo),\n/* harmony export */   \"edit\": () => (/* binding */ edit),\n/* harmony export */   \"removeTodo\": () => (/* binding */ removeTodo),\n/* harmony export */   \"update\": () => (/* binding */ update)\n/* harmony export */ });\nconst addtodo = (userinput, data) => {\n  let index = 1;\n  const DB = data;\n  if (data.length > 0) {\n    index = data.length + 1;\n  }\n  const todoitem = { description: userinput, completed: false, index };\n  DB.push(todoitem);\n  localStorage.setItem('info', JSON.stringify(DB));\n};\nconst update = (data) => {\n  localStorage.clear();\n  localStorage.setItem('info', JSON.stringify(data));\n};\n\nconst removeTodo = (index, data) => {\n  const remove = data;\n  const filtered = remove.filter((remove) => remove.index !== index);\n  for (let i = 0; i < filtered.length; i++) {\n    filtered[i].index = i + 1;\n  }\n  update(filtered);\n  window.location.reload();\n};\nconst edit = (index, data, inputval) => {\n  const newData = data;\n  newData[index - 1].description = inputval;\n  update(newData);\n};\n\n\n//# sourceURL=webpack://to-do-list/./src/modules/todolist.js?");
+
+/***/ }),
+
+/***/ "./src/asset/add.png":
+/*!***************************!*\
+  !*** ./src/asset/add.png ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"bbe622f9573d3d744806.png\";\n\n//# sourceURL=webpack://to-do-list/./src/asset/add.png?");
+
+/***/ }),
+
+/***/ "./src/asset/delete.png":
+/*!******************************!*\
+  !*** ./src/asset/delete.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"db3935bfa4dbe8f28c78.png\";\n\n//# sourceURL=webpack://to-do-list/./src/asset/delete.png?");
+
+/***/ }),
+
+/***/ "./src/asset/menu.png":
+/*!****************************!*\
+  !*** ./src/asset/menu.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"8412d18527a9f2cae1e7.png\";\n\n//# sourceURL=webpack://to-do-list/./src/asset/menu.png?");
+
+/***/ }),
+
+/***/ "./src/asset/refresh.png":
+/*!*******************************!*\
+  !*** ./src/asset/refresh.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"04c5e410a8f7fcf6c8dc.png\";\n\n//# sourceURL=webpack://to-do-list/./src/asset/refresh.png?");
 
 /***/ })
 
@@ -168,6 +245,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var loda
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -229,6 +309,52 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var loda
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
