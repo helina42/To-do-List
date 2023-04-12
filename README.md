@@ -83,6 +83,11 @@
 - **[Contains function to iterate over the tasks array and populate an HTML list item element for each task.]**
 - **[List created dynamically and displays in the sequence that is given.]**
 - **[Styled with style.css that's loaded by Webpack Style/CSS Loader.]**
+- **[Function for adding a new task.]**
+- **[Function for deleting a task (remove an element from the array).]**
+- **[Function for editing task descriptions.]**
+- **[All changes to the To Do List is saved in local storage.]**
+
 
 
 
@@ -220,7 +225,6 @@ Example command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- **[Add and remove items.]**
 - **[Interactive list.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
