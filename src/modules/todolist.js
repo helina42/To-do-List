@@ -8,6 +8,10 @@ export const addtodo = (userinput, data) => {
   DB.push(todoitem);
   localStorage.setItem('info', JSON.stringify(DB));
 };
+export const update = (data) => {
+  localStorage.clear();
+  localStorage.setItem('info', JSON.stringify(data));
+};
 
 export const removeTodo = (index, data) => {
   const remove = data;
@@ -15,5 +19,11 @@ export const removeTodo = (index, data) => {
   for (let i = 0; i < filtered.length; i++) {
     filtered[i].index = i + 1;
   }
-  localStorage.setItem('info', JSON.stringify(filtered));
+  update(filtered);
+  window.location.reload();
+};
+export const edit = (index, data, inputval) => {
+  const newData = data;
+  newData[index - 1].description = inputval;
+  update(newData);
 };
