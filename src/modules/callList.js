@@ -1,4 +1,5 @@
 import { edit, removeTodo } from './todolist.js';
+import { status } from './update.js';
 
 const list = document.querySelector('.list');
 export const todoDB = JSON.parse(localStorage.getItem('info')) || [];
@@ -12,6 +13,7 @@ const callList = (inputtext, index) => {
   div.id = `dolist${index}`;
   const input = document.createElement('input');
   input.type = 'checkbox';
+  input.id = `checkbox${index}`;
   const label = document.createElement('label');
   label.id = `userval${index}`;
   label.innerText = inputtext;
@@ -50,6 +52,10 @@ const callList = (inputtext, index) => {
   label.addEventListener('input', (e) => {
     const inputValue = e.target.innerText;
     edit(index, todoDB, inputValue);
+  });
+  input.addEventListener('change', (e) => {
+    const id = index * 1;
+    status(id, todoDB);
   });
 };
 export default callList;
