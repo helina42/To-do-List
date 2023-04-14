@@ -1,4 +1,4 @@
-import { edit, removeTodo } from './todolist.js';
+import { edit, removeTodo, update } from './todolist.js';
 import { status } from './update.js';
 
 const list = document.querySelector('.list');
@@ -45,9 +45,15 @@ const callList = (inputtext, index) => {
     children[1].classList.remove('hide');
   });
   del.addEventListener('click', (e) => {
-    const id = index * 1;
-    removeTodo(id, todoDB);
+    // console.log('Before:', todoDB);
+    const id = e.target.id * 1;
+    console.log(id);
+    const selected = removeTodo(id, todoDB);
     e.target.parentNode.remove();
+    update(selected);
+    // console.log('After:', todoDB);
+    // console.log(todoDB.e.target);
+    // update(todoDB);
   });
   label.addEventListener('input', (e) => {
     const inputValue = e.target.innerText;
@@ -56,6 +62,7 @@ const callList = (inputtext, index) => {
   input.addEventListener('change', (e) => {
     const id = index * 1;
     status(id, todoDB);
+    update(todoDB);
   });
 };
 export default callList;
